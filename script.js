@@ -6,8 +6,6 @@ let numEle = null
 function handleClick(event) {
     const pElement = event.target;
     numEle = pElement.getAttribute('value')
-    console.log(numEle)
-
 }
 
 for (let i = 0; i < pElements.length; i++) {
@@ -21,11 +19,10 @@ function saveNum(){
         console.log("sometthing is missing")
     }
     else{
-        console.log(numEle)
-        localStorage.setItem('theNumber',JSON.stringify(numEle));
-        window.location.assign('thankyou.html')
-        // theAttri
+        // console.log(numEle)
+        localStorage.setItem('theNumber', numEle);
+       let returnednumber = localStorage.getItem('theNumber')
+       console.log(returnednumber)
+        // window.location.assign('thankyou.html')
     }
-   
-    // console.log(theAttri);
 }
