@@ -4,7 +4,8 @@ const pElements = document.getElementsByClassName('two');
 
 function handleClick(event) {
     const pElement = event.target;
-    console.log(pElement.getAttribute('value'));
+    const theAttri = pElement.getAttribute('value')
+    console.log(theAttri);
 }
 
 
