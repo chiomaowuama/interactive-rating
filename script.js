@@ -2,7 +2,6 @@ const pElements = document.getElementsByClassName('two');
 const btnEle = document.getElementById('myButton');
 let chosenNum = document.getElementById('choosen-numbers');
 let numEle = null
-let returnednumber = null
 
 function handleClick(event) {
     const pElement = event.target;
@@ -19,15 +18,24 @@ function saveNum(){
         console.log("sometthing is missing")
     }
     else{
-        // console.log(numEle)
+        console.log(numEle)
         localStorage.setItem('theNumber', numEle);
-        returnednumber = localStorage.getItem('theNumber')
-        // window.location.assign('thankyou.html')
+        
+        window.location.assign('thankyou.html')
     }
 }
-// chosenNum.addEventListener('DOMContentLoaded', displayNum)
+// new page
 function displayNum(){
-    console.log("yes")
-  
+    let returnednumber = localStorage.getItem('theNumber')
+    chosenNum.textContent = `you selected ${returnednumber} out of 5`
+    if(!returnednumber){
+        console.log("not ready")
+    }
+    else{
+        console.log(returnednumber)
+    }
+   
+    
 }
+window.addEventListener('load', displayNum)
 

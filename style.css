@@ -79,3 +79,17 @@ body{
     background-color: white;
     color: #FC7614;
 }
+/* the new page */
+#choosen-numbers{
+    border:2px solid green;
+}
+.second{
+    /* display: flex; */
+    /* justify-content: center; */
+    align-items: center;
+    border:2px solid yellow;
+}
+.seconds{
+    text-align: center;
+    font-size: 15px;
+}
