@@ -23,7 +23,7 @@ function saveNum(){
     else{
         console.log(numEle)
         localStorage.setItem('theNumber',JSON.stringify(numEle));
-        window.location.assign('')
+        window.location.assign('thankyou.html')
         // theAttri
     }
    
