@@ -1,6 +1,7 @@
 const pElements = document.getElementsByClassName('two');
 const btnEle = document.getElementById('myButton');
 let chosenNum = document.getElementById('choosen-numbers');
+let errorMessage = document.getElementById('errormessage');
 let numEle = null
 
 function handleClick(event) {
@@ -16,6 +17,7 @@ for (let i = 0; i < pElements.length; i++) {
 function saveNum(){
     if(!numEle){
         console.log("sometthing is missing")
+        errorMessage.textContent = `Something is missing`
     }
     else{
         console.log(numEle)
