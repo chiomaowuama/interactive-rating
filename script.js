@@ -1,3 +1,3 @@
 // alert("hello");
-const OneEle = document.getElementById("#one");
+let OneEle = document.getElementById("one").getAttribute("value");
 console.log(OneEle)
