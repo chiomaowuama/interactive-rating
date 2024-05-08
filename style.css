@@ -106,6 +106,18 @@ body{
     background-color: #262E38;
     padding: 10px;
 }
+
+
+.testing{
+    border:2px solid red;
+    width: 100%;
+}
+.testingh1{
+    border:2px solid green;
+    border-radius: 25px;
+    width: 50px;
+    text-align: center;
+}
 /* transition */
 /* tab */
 @media only screen and (min-width: 768px) and (max-width: 1024px){

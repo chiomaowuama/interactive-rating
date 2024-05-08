@@ -43,4 +43,3 @@ function displayNum(){
     
 }
 window.addEventListener('load', displayNum)
-
