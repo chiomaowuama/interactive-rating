@@ -1,4 +1,6 @@
-import Swup from 'swup'
+
+
+
 const pElements = document.getElementsByClassName('two');
 const btnEle = document.getElementById('myButton');
 let chosenNum = document.getElementById('choosen-numbers');
@@ -42,5 +44,3 @@ function displayNum(){
 }
 window.addEventListener('load', displayNum)
 
-// sliding
-const swup = new Swup()

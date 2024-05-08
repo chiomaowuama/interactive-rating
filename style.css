@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
 /* bg:#262E38; */
 /* small-bg:#979797 */
 /* small-text:#969FAD */
@@ -7,7 +8,6 @@
 *{
     margin:0;
     padding: 0;
-    /* border:2px solid green; */
 }
 
 body{
@@ -25,7 +25,6 @@ body{
     width: 30%;
     height: fit-content;
     padding: 2%;
-    /* background-color:#3c4856; */
     background-color: #262E38;
     border-radius: 20px;
     display: flex;
@@ -34,7 +33,6 @@ body{
 
 }
 .the-interaction-svg{
-    /* border:2px solid red; */
     padding: 10px;
     background-color:#343e4a;
     border-radius: 20px;
@@ -85,7 +83,6 @@ body{
     color: #FC7614;
 }
 #errormessage{
-    /* border:2px solid green; */
     color: #FC7614;
     font-family: "Overpass";
     font-size: 13px;
@@ -93,7 +90,6 @@ body{
 }
 /* the new page */
 #choosen-numbers{
-    /* border:2px solid green; */
     background-color: #343e4a;
     color: #FC7614;
     padding: 1% 5%;
@@ -102,10 +98,7 @@ body{
     margin: 5% 0;
 }
 .second{
-    /* display: flex; */
-    /* justify-content: center; */
     align-items: center;
-    /* border:2px solid yellow; */
 }
 .seconds{
     text-align: center;
@@ -114,8 +107,7 @@ body{
     
 }
 .the-svg{
-    /* border:2px solid red; */
     background-color: #262E38;
     padding: 10px;
-    /* border-radius: 20px; */
 }
+/* transition */
